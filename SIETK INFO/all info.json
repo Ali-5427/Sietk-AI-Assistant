@@ -1,0 +1,104 @@
+
+{
+  "metadata": {
+    "scrapeId": "019bfe02-fda9-7563-8ba3-d35e5f2f5569",
+    "sourceURL": "https://sietk.org/newsletter/cse/N/2.pdf",
+    "url": "https://sietk.org/newsletter/cse/N/2.pdf",
+    "statusCode": 200,
+    "numPages": 9,
+    "title": "News Letter 2024 (Oct to Dec)",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-01-27T04:13:36.303Z",
+    "creditsUsed": 13
+  },
+  "json": {
+    "company_name": "Siddharth Institute of Engineering & Technology",
+    "company_description": "An autonomous institute located in Puttur, Tirupati District, offering programs in engineering and technology."
+  }
+}
+
+{
+  "metadata": {
+    "title": "SIETK College",
+    "language": "en",
+    "viewport": "width=device-width, initial-scale=1",
+    "favicon": "https://sietk.org/images/sietk-logo.ico",
+    "scrapeId": "019bfe02-fd48-77eb-803a-d4006de7d061",
+    "sourceURL": "https://sietk.org",
+    "url": "https://sietk.org/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-01-27T03:49:03.355Z",
+    "creditsUsed": 5
+  },
+  "json": {
+    "company_name": "SIETK",
+    "company_description": "Siddharth Institute of Engineering and Technology, located in Andhra Pradesh, India, offers various programs including undergraduate and postgraduate degrees, as well as diploma courses. The institution is accredited by various bodies including NBA, AICTE, and NAAC."
+  }
+}
+
+{
+  "metadata": {
+    "language": "en",
+    "viewport": "width=device-width, initial-scale=1",
+    "title": "SIETK College",
+    "favicon": "https://sietk.org/images/sietk-logo.ico",
+    "scrapeId": "019bfe02-fda9-7563-8ba3-dab930f63a76",
+    "sourceURL": "https://sietk.org/academic_council.php",
+    "url": "https://sietk.org/academic_council.php",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-01-27T04:00:32.702Z",
+    "creditsUsed": 5
+  },
+  "json": {
+    "company_name": "Siddharth Institute of Engineering and Technology (SIETK)",
+    "company_description": "SIETK is a higher education institution located in Andhra Pradesh, India offering various undergraduate and postgraduate programs in engineering, management, and other fields."
+  }
+} 
+
+{
+  "metadata": {
+    "scrapeId": "019bfe02-fda9-7563-8ba3-efdc22821057",
+    "sourceURL": "https://sietk.org/newsletter/cse/m/1.pdf",
+    "url": "https://sietk.org/newsletter/cse/m/1.pdf",
+    "statusCode": 200,
+    "numPages": 8,
+    "title": "Magazine  2024 (July to Dec)",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-01-27T04:21:18.068Z",
+    "creditsUsed": 12
+  },
+  "json": {
+    "company_name": "Siddharth Institute of Engineering & Technology (Autonomous)",
+    "company_description": "Siddharth Institute of Engineering & Technology is an autonomous institution located in Puttur, Tirupati. It hosts a student chapter of ISTE and focuses on various academic and extracurricular events to enhance student engagement and learning."
+  }
+}
+
+{
+  "metadata": {
+    "title": "SIETK College",
+    "language": "en",
+    "viewport": "width=device-width, initial-scale=1",
+    "favicon": "https://sietk.org/images/sietk-logo.ico",
+    "scrapeId": "019bfe02-fda9-7563-8ba3-e6297decf5b9",
+    "sourceURL": "https://sietk.org/stud_welfare_dean.php",
+    "url": "https://sietk.org/stud_welfare_dean.php",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "proxyUsed": "basic",
+    "cacheState": "hit",
+    "cachedAt": "2026-01-27T04:12:08.816Z",
+    "creditsUsed": 5
+  },
+  "json": {
+    "company_name": "Siddharth Institute of Engineering & Technology (SIETK)",
+    "company_description": "SIETK is an educational institution located in Puttur, Chittoor District, Andhra Pradesh, India. It offers a variety of undergraduate and postgraduate programs, as well as diploma courses. The institute emphasizes research and development, student welfare, and has various facilities such as a library, transport, canteen, and sports amenities."
+  }
+}
