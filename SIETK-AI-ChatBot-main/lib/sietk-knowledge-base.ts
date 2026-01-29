@@ -1,4 +1,4 @@
-﻿// Comprehensive SIETK Knowledge Base - Last Updated: 2025-12-26 20:40
+// Comprehensive SIETK Knowledge Base - Last Updated: 2025-12-26 20:40
 // Generated from website crawler data
 
 export const SIETK_KNOWLEDGE_BASE = {
@@ -290,7 +290,7 @@ export const SIETK_KNOWLEDGE_BASE = {
     "II B.Tech I SEMESTER (R23) REGULAR & SUPPLEMENTARY EXAMINATIONS OCTOBER/NOVEMBER 2025",
     "IV B.Tech I SEMESTER (R20) REGULAR & SUPPLEMENTARY EXAMINATIONS OCTOBER/NOVEMBER 2025"
   ]
-}
+};
 
 // Helper function to search the knowledge base
 export function searchKnowledgeBase(query: string): string | null {
@@ -299,7 +299,7 @@ export function searchKnowledgeBase(query: string): string | null {
   // Founder / Chairman / Management
   if (q.includes('founder') || q.includes('chairman') || q.includes('management') || q.includes('who created') || q.includes('who started') || q.includes('who established')) {
     const mgmt = SIETK_KNOWLEDGE_BASE.management
-    return `## Founder & Management ðŸ‘¨â€ðŸ’¼
+    return `## Founder & Management 👨‍💼
 
 **Founder & Chairman:**
 - **Name:** ${mgmt.chairman.name}
@@ -317,13 +317,13 @@ Dr. K. Ashok Raju is the visionary founder who established Siddharth Institute o
 - Located in Puttur, Andhra Pradesh
 - Part of Siddharth Group of Institutions
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone} | ðŸŒ ${SIETK_KNOWLEDGE_BASE.about.website}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone} | 🌐 ${SIETK_KNOWLEDGE_BASE.about.website}`
   }
 
   // Principal
   if (q.includes('principal') || q.includes('head of institution')) {
     const mgmt = SIETK_KNOWLEDGE_BASE.management
-    return `## Principal of SIETK ðŸ‘¨â€ðŸ«
+    return `## Principal of SIETK 👨‍🏫
 
 **Name:** ${mgmt.principal.name}
 **Title:** ${mgmt.principal.title}
@@ -332,8 +332,8 @@ The Principal oversees academic and administrative functions of the institution.
 
 **Chairman:** ${mgmt.chairman.name}
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}
-ðŸ“§ Email: ${SIETK_KNOWLEDGE_BASE.about.email}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}
+📧 Email: ${SIETK_KNOWLEDGE_BASE.about.email}`
   }
 
   // AI & ML / CSM
@@ -363,7 +363,7 @@ The CSE (AI & ML) program at SIETK is designed to prepare students for careers i
 - Machine Learning Researcher
 - AI Solutions Architect
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone} | ðŸŒ ${SIETK_KNOWLEDGE_BASE.about.website}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone} | 🌐 ${SIETK_KNOWLEDGE_BASE.about.website}`
   }
 
   // Data Science / CAD
@@ -381,7 +381,7 @@ The CSE (AI & DS) program focuses on Data Science, Analytics, and AI application
 - **Year Started:** ${cad?.year}
 - **Fee:** Rs. ${SIETK_KNOWLEDGE_BASE.fees.btech.amount.toLocaleString()} per year
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // Cloud Computing / CCC
@@ -396,7 +396,7 @@ The CSE (AI & DS) program focuses on Data Science, Analytics, and AI application
 - **Year Started:** ${ccc?.year}
 - **Fee:** Rs. ${SIETK_KNOWLEDGE_BASE.fees.btech.amount.toLocaleString()} per year
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // IoT & Cyber Security / CIC
@@ -411,13 +411,13 @@ The CSE (AI & DS) program focuses on Data Science, Analytics, and AI application
 - **Year Started:** ${cic?.year}
 - **Fee:** Rs. ${SIETK_KNOWLEDGE_BASE.fees.btech.amount.toLocaleString()} per year
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // Fees
   if (q.includes('fee') || q.includes('cost') || q.includes('tuition') || q.includes('price')) {
     const fees = SIETK_KNOWLEDGE_BASE.fees
-    return `## SIETK Fee Structure ðŸ’°
+    return `## SIETK Fee Structure 💰
 
 **B.Tech Programs (All branches):**
 - Rs. **${fees.btech.amount.toLocaleString()}** per year
@@ -432,13 +432,13 @@ The CSE (AI & DS) program focuses on Data Science, Analytics, and AI application
 - Scholarships available for eligible students
 - Government fee reimbursement schemes applicable
 
-ðŸ“ž Contact Admissions: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact Admissions: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // Courses / Programs
   if (q.includes('course') || q.includes('program') || q.includes('branch') || q.includes('department')) {
     const cse = SIETK_KNOWLEDGE_BASE.departments.cse
-    return `## B.Tech Programs at SIETK ðŸŽ“
+    return `## B.Tech Programs at SIETK 🎓
 
 | Program | Code | Intake | Year |
 |---------|------|--------|------|
@@ -453,13 +453,13 @@ ${cse.courses.map(c => `| ${c.name} | ${c.code || 'CSE'} | ${c.intake} | ${c.yea
 
 **PG Programs:** MBA (120), MCA (120), M.Tech
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // Admission
   if (q.includes('admission') || q.includes('apply') || q.includes('eligibility') || q.includes('eamcet') || q.includes('apeapcet')) {
     const adm = SIETK_KNOWLEDGE_BASE.admissions
-    return `## SIETK Admission Information ðŸ“‹
+    return `## SIETK Admission Information 📋
 
 **B.Tech Admission:**
 - ${adm.btech.conveyorSeats}
@@ -486,7 +486,7 @@ ${adm.btech.eligibility.map(e => `- ${e}`).join('\n')}
   // Placement
   if (q.includes('placement') || q.includes('job') || q.includes('recruit') || q.includes('company') || q.includes('career')) {
     const plc = SIETK_KNOWLEDGE_BASE.placements
-    return `## SIETK Placements & Training ðŸ’¼
+    return `## SIETK Placements & Training 💼
 
 **About ${plc.department}:**
 ${plc.description}
@@ -499,13 +499,13 @@ ${plc.services.map(s => `- ${s}`).join('\n')}
 - Phone: ${plc.contact.phone}
 - Background Verification: ${plc.contact.backgroundVerification}
 
-ðŸŒ Visit: ${SIETK_KNOWLEDGE_BASE.about.website}`
+🌐 Visit: ${SIETK_KNOWLEDGE_BASE.about.website}`
   }
 
   // Achievements
   if (q.includes('achievement') || q.includes('award') || q.includes('recognition') || q.includes('prathibha')) {
     const achievements = SIETK_KNOWLEDGE_BASE.achievements
-    return `## SIETK Notable Achievements ðŸ†
+    return `## SIETK Notable Achievements 🏆
 
 ${achievements.map(a => `**${a.title}${a.year ? ` (${a.year})` : ''}**
 ${a.description}`).join('\n\n')}
@@ -513,13 +513,13 @@ ${a.description}`).join('\n\n')}
 **Accreditations:**
 ${SIETK_KNOWLEDGE_BASE.about.accreditations.map(a => `- ${a}`).join('\n')}
 
-ðŸŒ Visit: ${SIETK_KNOWLEDGE_BASE.about.website}`
+🌐 Visit: ${SIETK_KNOWLEDGE_BASE.about.website}`
   }
 
   // About SIETK - only match if explicitly asking about the college overview
   if (q.includes('about sietk') || q.includes('about the college') || q.includes('what is sietk') || q.includes('overview') || q.includes('introduction') || (q.includes('about') && !q.includes('curriculum') && !q.includes('subject') && !q.includes('course'))) {
     const about = SIETK_KNOWLEDGE_BASE.about
-    return `## About SIETK ðŸ›ï¸
+    return `## About SIETK 🏛️
 
 **${about.name}** is a premier engineering institution.
 
@@ -545,7 +545,7 @@ ${about.accreditations.map(a => `- ${a}`).join('\n')}
   // MBA
   if (q.includes('mba') || q.includes('business administration') || q.includes('management')) {
     const mba = SIETK_KNOWLEDGE_BASE.departments.mba
-    return `## MBA Program at SIETK ðŸ“Š
+    return `## MBA Program at SIETK 📊
 
 **About:**
 ${mba.name} was established in ${mba.established}.
@@ -562,13 +562,13 @@ ${mba.specializations.map(s => `- ${s}`).join('\n')}
 **Activities:**
 ${mba.activities.map(a => `- ${a}`).join('\n')}
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // MCA
   if (q.includes('mca') || q.includes('computer application')) {
     const mca = SIETK_KNOWLEDGE_BASE.departments.mca
-    return `## MCA Program at SIETK ðŸ’»
+    return `## MCA Program at SIETK 💻
 
 **About:**
 ${mca.name} was established in ${mca.established}.
@@ -578,13 +578,13 @@ ${mca.name} was established in ${mca.established}.
 - **Fee:** Rs. ${SIETK_KNOWLEDGE_BASE.fees.mca.amount.toLocaleString()} per year
 - **Head:** ${mca.head}
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   // Exam / Results
   if (q.includes('exam') || q.includes('result') || q.includes('notification') || q.includes('timetable') || q.includes('time table')) {
     const exam = SIETK_KNOWLEDGE_BASE.examCell
-    return `## Exam Cell Information ðŸ“
+    return `## Exam Cell Information 📝
 
 **Controller of Examinations:**
 - Name: ${exam.controller.name}
@@ -597,12 +597,12 @@ ${SIETK_KNOWLEDGE_BASE.currentNotifications.map(n => `- ${n}`).join('\n')}
 
 **For Results:** Visit http://siddharthgroup.ac.in/resultpage.html
 
-ðŸ“ž Contact: ${exam.email}`
+📞 Contact: ${exam.email}`
 
   // Exam / Results
   if (q.includes('exam') || q.includes('result') || q.includes('notification') || q.includes('timetable') || q.includes('time table')) {
     const exam = SIETK_KNOWLEDGE_BASE.examCell
-    return `## Exam Cell Information ðŸ“
+    return `## Exam Cell Information 📝
 
 **Controller of Examinations:**
 - Name: ${exam.controller.name}
@@ -615,12 +615,12 @@ ${SIETK_KNOWLEDGE_BASE.currentNotifications.map(n => `- ${n}`).join('\n')}
 
 **For Results:** Visit http://siddharthgroup.ac.in/resultpage.html
 
-ðŸ“ž Contact: ${exam.email}`
+📞 Contact: ${exam.email}`
   }
 
   // Regulation / Syllabus / Curriculum
   if (q.includes('regulation') || q.includes('syllabus') || q.includes('curriculum') || q.includes('r20') || q.includes('r23')) {
-    return `## SIETK Syllabus & Regulations ðŸ“š
+    return `## SIETK Syllabus & Regulations 📚
 
 **Direct Download Links:**
 
@@ -641,7 +641,7 @@ ${SIETK_KNOWLEDGE_BASE.currentNotifications.map(n => `- ${n}`).join('\n')}
   // Contact / Location
   if (q.includes('contact') || q.includes('phone') || q.includes('address') || q.includes('location') || q.includes('coordinate') || q.includes('map') || q.includes('where')) {
     const about = SIETK_KNOWLEDGE_BASE.about
-    return `## SIETK Location & Contact ðŸ“
+    return `## SIETK Location & Contact 📍
 
 **Address:**
 ${about.location}
@@ -667,7 +667,7 @@ ${about.location}
 
   // Facilities
   if (q.includes('facility') || q.includes('infrastructure') || q.includes('lab') || q.includes('library') || q.includes('hostel')) {
-    return `## SIETK Facilities & Infrastructure ðŸ«
+    return `## SIETK Facilities & Infrastructure 🏫
 
 **Campus Facilities:**
 ${SIETK_KNOWLEDGE_BASE.facilities.map(f => `- ${f}`).join('\n')}
@@ -677,7 +677,7 @@ ${SIETK_KNOWLEDGE_BASE.facilities.map(f => `- ${f}`).join('\n')}
 - IIT Tirupati collaboration for CSE mentorship
 - AICTE IDEA Lab
 
-ðŸ“ž Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
+📞 Contact: ${SIETK_KNOWLEDGE_BASE.about.phone}`
   }
 
   return null
